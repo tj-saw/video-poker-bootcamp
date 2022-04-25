@@ -1,0 +1,177 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Alfa Slab On", monospace;
+  color: #3e3b3b;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #000;
+  background-image: url("images/body-background.jpg");
+  background-size: fill;
+  background-position: 0 -5vh;
+  background-repeat: no-repeat;
+  height: 620px;
+  padding: 10px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5em;
+  color: #373131b9;
+  text-shadow: 3px 3px 0 #b3afaf, -1px -1px 0 #211d1d, 1px -1px 0 #7a5555,
+    -1px 1px 0 #f0f0f0, 1px 1px 0 #f0f0f0;
+  padding: 10px;
+  width: 80vw;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* For main divs */
+main {
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  background-color: rgb(244, 240, 240);
+  border: 10px solid #f0f0f0;
+  width: 80vw;
+  max-width: 600px;
+  margin: 10px auto 30px;
+  padding: 10px;
+}
+
+#top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  height: 50px;
+}
+
+#points {
+  font-size: 0.8rem;
+  text-align: left;
+  color: #c40000;
+  padding: 1em;
+  flex: 0 0 50%;
+}
+
+#message-board {
+  margin: 40px 20px 10px;
+  padding: 10px;
+  letter-spacing: normal;
+}
+
+#card-container {
+  vertical-align: top;
+  padding: 10px;
+}
+
+#deal-button {
+  font-size: 1.2rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-family: "Alfa Slab On", monospace;
+  margin: 25px;
+  padding: 15px 30px 10px 10px;
+  background-color: rgb(105, 103, 103);
+  text-align: justify;
+  border: 2px solid black;
+  color: white;
+  display: inline-block;
+}
+
+#deal-button:disabled {
+  color: grey;
+}
+
+#paytable-button {
+  color: #060606;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: "Alfa Slab On", monospace;
+  margin: 40px 20px 20px;
+  padding: 10px 30px 10px;
+  background-color: rgb(255, 255, 255);
+  border: 0px solid black;
+}
+
+.paytable {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  background-color: rgb(170, 169, 169);
+  border: 10px solid #181717;
+  width: 20vw;
+  min-width: 320px;
+  margin: 10px auto 30px;
+  padding: 30px 10px 10px;
+  position: absolute;
+  top: 25vh;
+  left: 5vw;
+}
+
+#close-button {
+  color: #ff5d5d;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-family: "Alfa Slab On", monospace;
+  margin: 10px;
+  padding: 10px 20px 10px 10px;
+  background-color: black;
+  border: 0px solid black;
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+/* For cards */
+.card-div {
+  display: inline-block;
+  padding: 10px;
+}
+
+.card {
+  font-size: 1.2rem;
+  line-height: 1.1rem;
+  text-align: center;
+  background-color: #f5f6fa;
+  border: 3px solid #bc01db;
+  padding: 22px 5px;
+  width: 80px;
+  height: 120px;
+}
+
+.down {
+  background-color: #fef1ac;
+  background-image: url("images/body-background.jpg");
+  background-position: 40% 15%;
+  background-size: fill;
+  border-color: #000000;
+}
+
+.symbol {
+  font-size: 1.7rem;
+  font-family: "Alfa Slab On", monospace;
+}
+
+.message {
+  height: 20px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #0b0000;
+}
+
+.red {
+  color: #c23616;
+}
+
+.black {
+  color: #446593;
+}
